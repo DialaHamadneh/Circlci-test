@@ -2,6 +2,8 @@ machine:
   php:
     version:
       5.6.2
+deployment:
+  echo "test"
 
 # general:
 #   branches:
