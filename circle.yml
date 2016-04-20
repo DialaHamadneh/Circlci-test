@@ -2,3 +2,28 @@ machine:
   php:
     version:
       5.6.2
+
+# general:
+#   branches:
+#     only:
+#       - master # list of branches to build
+#       - /feature-.*/ # or regexes
+#       # OR
+
+#     ignore:
+#       - gh-pages # list of branches to ignore
+#       - /release\/.*/ # or ignore regexes
+
+# dependencies:
+#   override:
+#     - composer install --no-interaction --prefer-dist
+
+#   post:
+#     - sudo cp -a app/fixes/LaravelLocalization.txt vendor/mcamara/laravel-localization/src/Mcamara/LaravelLocalization/LaravelLocalization.php
+#     - php artisan clear-compiled
+#     - sudo cp -a app/fixes/ConfideUser.txt vendor/zizaco/confide/src/Confide/ConfideUser.php
+#     - sudo cp -a app/fixes/Builder.txt vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php
+#     - sudo cp -a app/fixes/S3.txt vendor/codesleeve/stapler/src/Storage/S3.php
+#     # http://stackoverflow.com/questions/17020513/laravel-4-failed-to-open-stream-permission-denied
+#     - sudo chown -R www-data:www-data app/storage
+#     - sudo find app/storage -type d -exec chmod 755 {} \; && sudo find app/storage -type f -exec chmod 644 {} \;
