@@ -6,4 +6,4 @@ deployment:
   test:
     branch: test
     commands:
-      - echo "test output" >> ./testoutput.txt
+      - echo "test output2" >> ./testoutput.txt
