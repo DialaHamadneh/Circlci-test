@@ -1,7 +1,7 @@
 machine:
   php:
     version:
-      #5.6.2
+      5.6.2
 
 # general:
 #   branches:
